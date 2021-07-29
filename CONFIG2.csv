@@ -1,0 +1,34 @@
+[RunInfo_Parameters]
+filepath = Data/
+numruns = 2
+
+[Domain_Parameters]
+xmin = 20.0
+xmax = 60.0
+ymin = 20.0
+ymax = 60.0
+numpartitions = 10
+minareabound = 0.0
+
+[Time_Parameters]
+maxtime = 25.0
+timestep = 0.25
+
+[OpaqueAgent_Parameters]
+numagents = 30
+searchangle = 0.0
+for = 45.0
+stddeviation = Uniform
+
+[TransparentAgent_Parameters]
+numagents = 2
+searchangle = 0
+for = 60.0
+acquisitiondistance = 10.0
+acquisitioinprobability = 0.5
+speed = 2.5
+moveangleerror = 10.0
+
+[Guess_Parameters]
+guesstolerance = 10.0
+
